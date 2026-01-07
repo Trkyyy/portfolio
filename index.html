@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Luke McGarvey — Portfolio</title>
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        <header class="site-banner">
+            <div class="container">
+            <h1 class="site-title">Luke McGarvey</h1>
+            <p class="site-sub">Senior Software Engineer</p>
+            <p class="site-contact">
+                <a href="mailto:luke.trko@proton.me">luke.trko@proton.me</a>
+                &nbsp;•&nbsp;
+                <a href="tel:+447341260401">+44 7341 260401</a>
+            </p>
+            </div>
+        </header>
+
+        <main class="container">
+                <section id="about" class="hero">
+                <h2>About me</h2>
+                <p>In terms of my professional expertise, I am experienced in designing, building and operating enterprise-scale distributed systems. I have a strong background in object-oriented development with Python, Java and Go; focused on reliable backend services, APIs and data-driven applications. For a deeper dive into my professional profile, please download my CV below.</p>
+                <p><a class="btn" href="assets/Luke_McGarvey_CV.pdf" download>Download CV</a></p>
+                <p>In my personally life, I have several hobbies that I really enjoy, such as reading, running, Go, and personal programming. In the <a href="#projects">Projects</a> section, you can find some of the personal projects I have been working on recently to improve my skills, but also to improve the quality-of-life for myself and my friends when we partake in our shared hobbies.</p>
+            </section>
+
+            <section id="skills" class="skills">
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Go</li>
+                    <li>Node.js</li>
+                    <li>Distributed systems</li>
+                    <li>REST APIs</li>
+                    <li>SQL and No-SQL databases</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>CI/CD</li>
+                    <li>AWS</li>
+                    <li>Azure</li>
+                    <li>Terraform</li>
+                    <li>Technical design and documentaiton</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h3>Projects</h3>
+                <div class="projects-grid">
+                    <article class="card">
+                    <div class="thumb mc">
+                        <img src="assets/images/coopboticon.png" alt="Minecraft plugin screenshot placeholder" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h4>Minecraft Fabric plugin</h4>
+                        <p>A Minecraft Fabric server plugin that integrates a live Minecraft server and Discord server. Written in Java and tested on Fabric Loader.</p>
+                        <p>This project has a growing list of features, but some of the most important ones are:</p>
+                        <ul>
+                        <li>Bidirectional chat between Minecraft and Discord</li>
+                        <li>Player join / leave notifications</li>
+                        <li>Farming detection that suppresses spam and posts clean summaries instead</li>
+                        <li>/info Discord slash command for server status & player list</li>
+                        <li>/register command, allowing users to link their Minecraft and Discord accounts</li>
+                        </ul>
+                        <p class="meta">Tech: Java • Fabric • Discord API</p>
+                        <p class="actions"><a href="https://github.com/Trkyyy/coop-bot" target="_blank" class="btn outline">Repository</a></p>
+                    </div>
+                    </article>
+
+                    <article class="card">
+                    <div class="thumb discord">
+                        <img src="assets/images/discord.png" alt="Discord bot screenshot placeholder" loading="lazy">
+                    </div>
+                    <div class="card-body">
+                        <h4>Discord Bot</h4>
+                        <p>Feature-rich bot for moderation. Built with Python, Discord API and SQL.</p>
+                        <ul>
+                        <li>Database for storing details of events, attendances, competencies, and notices.</li>
+                        <li>API for managing database and Discord bot interaction.</li>
+                        <li>Discord bot to allow authenticated and validated user ineractions with the database via API</li>
+                        </ul>
+                        <p class="meta">Tech: Python • Flask • Discord API • SQL</p>
+                        <p class="actions">Unfortunately due to security concerns, this project is private, so cannot be shared here.</p>
+                    </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <small>© Luke McGarvey</small>
+                <nav class="footer-links" aria-label="Social links">
+                    <a href="https://github.com/Trkyyy" target="_blank" rel="noopener">GitHub</a>
+                    <span class="sep">•</span>
+                    <a href="https://www.linkedin.com/in/luke-mcgarvey/" target="_blank" rel="noopener">LinkedIn</a>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
